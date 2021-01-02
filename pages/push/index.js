@@ -12,8 +12,25 @@ Page({
   },
   //事件处理函数
 submitForm:function(e){
+
+  // wx.getLocation({
+  //   type: 'wgs84',
+  //   success (res) {
+  //     const latitude = res.latitude
+  //     const longitude = res.longitude
+  //     const speed = res.speed
+  //     const accuracy = res.accuracy
+  //     console.log("地址.....")
+
+  //     console.log("latitude" + latitude);
+  //     console.log("longitude" + longitude);
+  //     console.log("speed" + speed);
+  //     console.log("accuracy" + accuracy);
+  //   }
+  //  })
+
     wx.request({
-      url: 'http://localhost:80/msg/publish',
+      url: 'http://192.168.0.103:8001/msg/publish',
       method:"POST",
       data:{
         userId:"xujie",
@@ -25,7 +42,7 @@ submitForm:function(e){
         "Content-Type":"application/json"
       },
       success:function(res){
-          console.log(JSON.stringify(res))
+          console.log(JSON.stringify("这里是结果"+res))
       }
     })
 },

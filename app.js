@@ -5,6 +5,7 @@ const themeListeners = [];
 App({
     globalData: {
         theme: 'light', // dark
+        
     },
     themeChanged(theme) {
         this.globalData.theme = theme;

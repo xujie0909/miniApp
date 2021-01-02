@@ -2,10 +2,15 @@
   "pages": [
     "pages/explore/index",
     "pages/voiceHole/index",
-    "pages/mine/index",
+    "pages/echo/index",
     "pages/push/index",
     "pages/logs/logs"
   ],
+  "permission":{
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -30,8 +35,8 @@
         "text": "发声"
       },
       {
-        "pagePath": "pages/mine/index",
-        "iconPath": "pages/mine/img/reply.png",
+        "pagePath": "pages/echo/index",
+        "iconPath": "pages/echo/img/reply.png",
         "text": "回声"
       }
     ]
