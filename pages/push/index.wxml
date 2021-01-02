@@ -1,0 +1,21 @@
+<view class="page" data-weui-theme="{{theme}}">
+	<form bindsubmit="submitForm">
+		<view class="page__bd page__bd_spacing">
+			<view class="weui-flex">
+				<view class="weui-flex__item">
+					<view class="weui-cells weui-cells_after-title">
+						<view class="weui-cell weui-cell_active">
+							<view class="weui-cell__bd">
+								<textarea class="weui-textarea" placeholder="请输入文本" style="height: 3.3em" name="msg"/>
+								<view class="weui-textarea-counter">0/200</view>
+                </view>
+            </view>
+			</view>
+		</view>
+		</view>
+	</view>
+	<view class="button-sp-area cell">
+		<button class="weui-btn weui-btn_primary" form-type="submit">提交</button>
+	</view>
+</form>
+</view>

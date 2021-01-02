@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/explore/index",
+    "pages/voiceHole/index",
+    "pages/mine/index",
+    "pages/push/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "念念不忘",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/voiceHole/index",
+        "iconPath": "pages/voiceHole/img/baxin.png",
+        "text": "声洞"
+      },
+      {
+        "pagePath": "pages/explore/index",
+        "iconPath": "pages/explore/img/explore.png",
+        "text": "探索"
+      },
+      {
+        "pagePath": "pages/push/index",
+        "iconPath": "pages/push/img/fasheng.png",
+        "text": "发声"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "pages/mine/img/reply.png",
+        "text": "回声"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
